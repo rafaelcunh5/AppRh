@@ -53,14 +53,14 @@ Este é um sistema de Gestão de Recursos Humanos (RH) desenvolvido para ajudar 
 
 *Contribuição*
 
-*Contribuições são bem-vindas! Abra uma issue ou envie um pull request se encontrar problemas ou tiver sugestões de melhoria.
+-Contribuições são bem-vindas! Abra uma issue ou envie um pull request se encontrar problemas ou tiver sugestões de melhoria.
 
 
 *Licença*
 
-*Este projeto é licenciado sob a Licença MIT.
+-Este projeto é licenciado sob a Licença MIT.
 
 
 *Contato*
 
-*Para mais informações, entre em contato rafah_lima2011@hotmail.com
+-Para mais informações, entre em contato rafah_lima2011@hotmail.com
