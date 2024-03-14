@@ -7,60 +7,60 @@ Este é um sistema de Gestão de Recursos Humanos (RH) desenvolvido para ajudar 
 
 *Funcionalidades Principais*
 
--Cadastro de funcionários
+•Cadastro de funcionários
 
--Gerenciamento de folha de pagamento
+•Gerenciamento de folha de pagamento
 
--Controle de férias, licenças e benefícios
+•Controle de férias, licenças e benefícios
 
--Acompanhamento de desempenho dos funcionários
+•Acompanhamento de desempenho dos funcionários
 
--Sistema de recrutamento e seleção de candidatos
+•Sistema de recrutamento e seleção de candidatos
 
--Geração de relatórios personalizados
+•Geração de relatórios personalizados
 
 
 *Tecnologias Utilizadas*
 
--Linguagem de Programação: Java  
+•Linguagem de Programação: Java  
 
--Framework: SpringBoot
+•Framework: SpringBoot
 
--Banco de Dados: MySql Workbendch
+•Banco de Dados: MySql Workbendch
 
 
 *Instalação*
 
--Clone o repositório
+•Clone o repositório
 
--Instale as dependências
+•Instale as dependências
 
--Configure o banco de dados
+•Configure o banco de dados
 
--Inicie o servidor
+•Inicie o servidor
 
--Acesse o sistema no navegador
+•Acesse o sistema no navegador
 
 
 *Utilização*
 
--Cadastre funcionários e gerencie sua folha de pagamento
+•Cadastre funcionários e gerencie sua folha de pagamento
 
--Publique vagas de emprego e gerencie o processo de recrutamento
+•Publique vagas de emprego e gerencie o processo de recrutamento
 
--Gere relatórios personalizados para insights valiosos
+•Gere relatórios personalizados para insights valiosos
 
 
 *Contribuição*
 
--Contribuições são bem-vindas! Abra uma issue ou envie um pull request se encontrar problemas ou tiver sugestões de melhoria.
+Contribuições são bem-vindas! Abra uma issue ou envie um pull request se encontrar problemas ou tiver sugestões de melhoria.
 
 
 *Licença*
 
--Este projeto é licenciado sob a Licença MIT.
+Este projeto é licenciado sob a Licença MIT.
 
 
 *Contato*
 
--Para mais informações, entre em contato rafah_lima2011@hotmail.com
+Para mais informações, entre em contato rafah_lima2011@hotmail.com
