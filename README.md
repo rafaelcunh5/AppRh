@@ -1,5 +1,5 @@
 
-# Sistema de RH*
+# Sistema de RH
 
 
 Este é um sistema de Gestão de Recursos Humanos (RH) desenvolvido para ajudar organizações a gerenciar eficientemente seus recursos humanos, incluindo cadastro de funcionários, folha de pagamento, recrutamento e muito mais.
