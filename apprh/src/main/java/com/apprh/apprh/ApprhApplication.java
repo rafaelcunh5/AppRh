@@ -6,7 +6,6 @@ public class ApprhApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApprhApplication.class, args);
-		SpringApplication.set();
 	}
 
 }
