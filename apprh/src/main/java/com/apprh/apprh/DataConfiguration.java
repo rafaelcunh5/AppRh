@@ -1,6 +1,6 @@
 package com.apprh.apprh;
 
-import javax.activation.DataSource;
+import javax.sql.DataSource;
 
 import org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionCreator;
 import org.springframework.context.annotation.Bean;
@@ -20,6 +20,7 @@ public class DataConfiguration {
         return dataSource;
     }
 
+    @Bean
     public JpaVendorAdapter jpaVendorAdapter() {
         HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
         adapter.setDatabase(Database.MYSQL);
