@@ -1,0 +1,12 @@
+package com.apprh.apprh.models;
+
+import java.io.Serializable;
+import java.util.list;
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+
+
+public class Vaga {
+    
+}
