@@ -13,8 +13,6 @@ Este é um sistema de Gestão de Recursos Humanos (RH) desenvolvido para ajudar 
 
 •Controle de férias, licenças e benefícios
 
-•Acompanhamento de desempenho dos funcionários
-
 •Sistema de recrutamento e seleção de candidatos
 
 •Geração de relatórios personalizados
