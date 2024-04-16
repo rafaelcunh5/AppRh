@@ -19,10 +19,11 @@ public class VagaController{
     private VagaRepository vr;
     private CandidatoRepository cr;
     
-    public vagaRepository.get(){
-        return vagaRepository;
+    public VagaRepository getVr(){
+        return vr;
     }
-
-    
+    public void setVr(VagaRepository vr){
+         this.VagaRepository vr;
+    }
 
 }
