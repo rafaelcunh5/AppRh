@@ -16,7 +16,13 @@ import com.apprh.models.Vagas;
 @Controller
 public class VagaController{
     
-    private VagaRepository vr;;
+    private VagaRepository vr;
     private CandidatoRepository cr;
+    
+    public vagaRepository.get(){
+        return vagaRepository;
+    }
+
+    
 
 }
