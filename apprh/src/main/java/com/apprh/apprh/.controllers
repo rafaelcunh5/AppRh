@@ -5,25 +5,28 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResquestMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResquestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.apprh.models.Candidato;
 import com.apprh.models.Vagas;
+import com.apprh.repository.CandidatoRepository;
+import com.apprh.repository.VagaRepository;
 
 @Controller
 public class VagaController{
     
     private VagaRepository vr;
     private CandidatoRepository cr;
-    
-    public VagaRepository getVr(){
-        return vr;
-    }
-    public void setVr(VagaRepository vr){
-         this.VagaRepository vr;
+
+    //Cadastrar vaga
+    @RequestMapping(value = "/cadastrarVaga", method = RequestMethod.GET)
+    public String form(){
+
+        return "vaga/formVaga";
     }
 
-}
+}   
