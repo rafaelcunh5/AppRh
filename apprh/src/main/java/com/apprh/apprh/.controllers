@@ -15,6 +15,8 @@ import com.apprh.models.Candidato;
 import com.apprh.models.Vagas;
 import com.apprh.repository.CandidatoRepository;
 import com.apprh.repository.VagaRepository;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @Controller
 public class VagaController{
@@ -25,8 +27,18 @@ public class VagaController{
     //Cadastrar vaga
     @RequestMapping(value = "/cadastrarVaga", method = RequestMethod.GET)
     public String form(){
-
         return "vaga/formVaga";
     }
 
-}   
+    @RequestMapping(value = "/cadastrarVaga", method=RequestMethod.POST)
+    public String form(@Valid Vaga vaga, BindingResult result, RedirectAttributes attributes){
+        
+        if (result.hasErrors()){
+            attributes.addFlashAttribute("mensagem", "Verifique os campos...");
+            return "redirect://cadastrarVaga";
+        }
+        
+        return "";
+    }
+
+}
