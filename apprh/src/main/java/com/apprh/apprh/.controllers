@@ -37,8 +37,11 @@ public class VagaController{
             attributes.addFlashAttribute("mensagem", "Verifique os campos...");
             return "redirect://cadastrarVaga";
         }
-        
-        return "";
+
+        vr.save(vaga);
+        attributes.addFlashAttribute("mensagem", "Vaga cadastrada com sucesso!");
+        return "redirect://cadastrarVaga";
+
     }
 
 }
